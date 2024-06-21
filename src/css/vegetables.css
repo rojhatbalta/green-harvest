@@ -1,0 +1,77 @@
+.section-vegetables {
+  display: flex;
+  flex-direction: column;
+  width: 1080px;
+  padding: 100px;
+  gap: 50px;
+  background-color: #7a3145;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  width: 626px;
+  gap: 25px;
+}
+
+.vegetables-header {
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 600;
+  color: #fbfbfb;
+}
+
+.vegetables-span {
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.vegetables-paragraph {
+  font-size: 16px;
+  line-height: 20px;
+  color: #fbfbfb;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+}
+
+.card {
+  display: flex;
+  width: 271px;
+  border-radius: 40px;
+  padding: 32px;
+  background-color: #fbfbfb;
+}
+
+.card-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item-name {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #7a3145;
+}
+
+.item-price {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+.item-pic {
+  display: flex;
+  width: 282px;
+  height: 243px;
+}
