@@ -25,7 +25,7 @@
   flex-direction: column;
   width: 650px;
   padding: 100px;
-  gap: 50px;
+  gap: 25px;
   background-color: #576f35;
 }
 
@@ -33,7 +33,12 @@
   font-size: 32px;
   line-height: 32px;
   font-weight: 600;
+  letter-spacing: 0.02em;
   color: #fbfbfb;
+}
+
+.span-howitworks {
+  color: rgba(251, 251, 251, 0.3);
 }
 
 .howitworks-paragraph {
@@ -45,7 +50,7 @@
   flex-direction: column;
   width: 450px;
   height: 268px;
-  gap: 20px;
+  gap: 10px;
 }
 
 .content-box-list-item {
@@ -54,25 +59,35 @@
   align-items: center;
   gap: 10px;
   width: 450px;
-  height: 76px;
+  height: 42px;
   border-radius: 15px;
   background-color: #fbfbfb;
-  padding: 12px, 25px, 12px, 24px;
+  padding-left: 12px;
+  padding-top: 25px;
+  padding-right: 12px;
+  padding-bottom: 24px;
 }
 
-.content-box-list-item-circle {
+.content-circle {
   display: flex;
+  flex-shrink: 0;
   justify-content: center;
   align-items: center;
   width: 42px;
   height: 42px;
-  background-color: #7a3145;
-  border: 5px;
-  border-color: rgba(122, 49, 69, 0.3);
   color: #fbfbfb;
+  background-color: #7a3145;
+  outline: 5px solid rgba(122, 49, 69, 0.3);
+  border-radius: 50%;
 }
 
-.content-box-list-item-paragraph {
+.content-number {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.content-paragraph {
   font-size: 16px;
   line-height: 20px;
 }
