@@ -7,7 +7,7 @@
   background-color: #7a3145;
 }
 
-.text-container {
+.vegetables-text {
   display: flex;
   flex-direction: column;
   width: 626px;
@@ -31,13 +31,13 @@
   color: #fbfbfb;
 }
 
-.cards {
+.vegetables-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 21px;
 }
 
-.card {
+.vegetables-card {
   display: flex;
   width: 271px;
   border-radius: 40px;
@@ -45,32 +45,32 @@
   background-color: #fbfbfb;
 }
 
-.card-items {
+.vegetables-card-items {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.item-text {
+.vegetables-item-text {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.item-name {
+.vegetables-item-name {
   font-size: 32px;
   line-height: 32px;
   font-weight: 600;
   color: #7a3145;
 }
 
-.item-price {
+.vegetables-item-price {
   font-size: 14px;
   line-height: 16px;
   font-weight: 600;
 }
 
-.item-pic {
+.vegetables-item-pic {
   display: flex;
   width: 282px;
   height: 243px;
