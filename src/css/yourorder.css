@@ -1,4 +1,5 @@
 .section-yourorder {
+  margin: auto;
   display: flex;
   flex-direction: column;
   width: 1080px;
@@ -73,6 +74,23 @@
 .form-item {
   border-radius: 30px;
   padding: 16px;
+  border: 1px solid rgba(20, 20, 20, 0.2);
+}
+
+.form-item:focus {
+  outline-color: #7a3145;
+}
+
+.form-item-text {
+  resize: none;
+  height: 49px;
+  padding: 16px;
+  border-radius: 15px;
+  border: 1px solid rgba(20, 20, 20, 0.2);
+}
+
+.form-item-text:focus {
+  outline-color: #7a3145;
 }
 
 .form-button {

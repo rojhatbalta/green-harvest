@@ -1,5 +1,6 @@
 .section-hero {
   position: relative;
+  margin: auto;
   background-color: #576f35;
   width: 1180px;
   height: 800px;

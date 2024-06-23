@@ -1,9 +1,8 @@
 .section-howitworks {
-  position: relative;
+  margin: auto;
   width: 1280px;
   height: 759px;
   display: flex;
-  padding: 100px, 100px, 160px, 100px;
 }
 
 .image-box {

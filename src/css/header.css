@@ -1,5 +1,6 @@
 .header-container {
   position: absolute;
+  margin: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -8,7 +9,8 @@
   width: 1180px;
   height: 52px;
   color: #fbfbfb;
-  padding: 0px 100px 0px 100px;
+  padding-left: 200px;
+  padding-right: 100px;
   margin-top: 32px;
 }
 
